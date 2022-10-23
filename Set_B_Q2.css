@@ -1,0 +1,26 @@
+
+.non{
+    font-size: 28px;
+    color: red;
+    font-family: cursive;
+}
+.item{
+    font-size: 18px;
+    color: yellowgreen;
+    font-family: monospace;
+}
+.Flowering{
+    font-size: 34px;
+    color: blueviolet;
+    font-family: sans-serif;
+}
+.Flowering-item{
+    font-size: 21px;
+    color:  #6666ff;
+    font-family: Arial;
+}
+.Flowering-item-rose{
+    font-size: 19px;
+    color:  #73e600;
+    font-family: 'Times New Roman';
+}
