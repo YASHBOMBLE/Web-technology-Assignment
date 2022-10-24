@@ -23,25 +23,25 @@
             border-left: none;
             border-right: none;
             font-size: 17px;
+            display: inline-block;
 
         }
 
         .leftbox {
             border: 5px solid black;
-
-            padding-bottom: 0px;
-            border-top: none;
-            border-right: none;
-            border-bottom: none;
-            margin-left: 400px;
-            font-size: 17px;
+margin-left: 100px;
+margin-bottom: -100px;
+border-top: none;
+border-bottom: none;
+font-size: 17px;
+height: 300px;
 
 
         }
 
-        .txt {
-            float: center;
-        }
+     span{
+        margin: 10px;
+     }
     </style>
 </head>
 
@@ -49,8 +49,8 @@
     <header class="header">
         <h1>This is header</h1>
     </header>
-    <section class="rightbox"><span class="txt">Look in the box at <br> the right for some <br> information.
-        </span><span class="leftbox"></span>Here is some information</section>
+    <section class="rightbox"><span>Look in the box at <br> the right for some <br> information.
+        </span><span class="leftbox"> <span>Here is some information</span> </span></section>
     <footer class="footer">
         <h1>This is footer</h1>
     </footer>
